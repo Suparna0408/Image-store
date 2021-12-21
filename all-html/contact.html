@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ImageStore</title>
+    <link rel="stylesheet" href="/all-css/photos.css">
+    <link rel="stylesheet" href="/all-css/nav.css">
+    <link rel="stylesheet" href="/all-css/var.css">
+    <link rel="stylesheet" href="/all-css/media.css">
+    <link rel="stylesheet" href="/all-css/media-contact.css">
+    <link rel="stylesheet" href="/all-css/contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../all-html/gifs.html">
+                <img src="logo.PNG" alt="error">
+            </a>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="../all-html/photos.html">Photos</a> </li>
+                <li><a href="../all-html/gifs.html">GIFs</a> </li>
+                <!-- <li><a href="/drawings.html">Drawings</a> </li> -->
+                <li><a href="../all-html/contact.html">Contact Us</a> </li>
+            </ul>
+
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div class="header-btn">
+            <a href="sinup.html"><button id="sinup-btn" class="btn">Sinup/Login</button></a> 
+        </div>
+    </header>
+    <div class="contact-content">
+        <main>
+            <div class="contact-box contact1">
+                <img src="../all/allsvg/email.jpg" alt=""
+                id="emailphoto">
+            </div>
+            <div class="contact-box contact2">
+                <img src="../all/allsvg/whatsapp.jpg" alt="" id="whatsappphoto">
+            </div>
+        </main>
+    </div>
+    <!-- For onclick pop up pages using javascript  -->
+    <div id="email-click" class="emodal">
+        <form action="backend.php" class="emailform">
+            <div class="form">
+                <label for="name">Name</label>
+            </div>
+            <div class="form">
+                <input type="text" name="user_name" id="name">
+            </div>
+            <div class="form">
+                <label for="email">Email</label>
+            </div>
+            <div class="form">
+                <input type="email" name="usere_mail" id="email">
+            </div>
+            <div class="form">
+                <label for="message">Write Message</label>
+            </div>
+            <div class="form">
+                <textarea name="user_message" id="message"></textarea>
+            </div>
+            <div class="email-send submit">
+                <input type="submit" value="SEND">
+                <!-- <button type="submit">SEND</button> -->
+            </div>
+        </form>
+    </div>
+    <div id="whatsapp-click" class="wmodal">
+        <form  class="whatsappform">
+            <div class="form">
+                <label for="name">Name</label>
+            </div>
+            <div class="form">
+                <input type="text" name="user_name" id="name">
+            </div>
+            <div class="form">
+                <label for="ph-number">Mobile Number</label>
+            </div>
+            <div class="form">
+                <input type="number" name="user_mobile_number" id="ph-number">
+            </div>
+            <!-- <button id="shownumber">Show Number</button> -->
+
+            <div class="shownumber">
+                <p id="showtext">Show the whatsapp number</p>
+                <!-- <p id="showmobileno">8100453211</p> -->
+            </div>
+            <div class="para">
+                <p>Say "Hi" first on whatsapp. 
+                    Then text how can we help you or about your quaries
+                </p>
+            </div>
+        </form>
+    </div>
+
+    <!-- <footer>
+        <div class="foot">
+            <div class="foot-items" id="about">
+                <h4>About Us</h4>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, rem consectetur deserunt
+                    veritatis,<span class="hide">
+                        tenetur obcaecati labore laudantium voluptatum, vel perspiciatis adipisci nam ullam fugit
+                        molestiae.
+                        Nobis, quos nam? Perferendis repellendus obcaecati, inventore, exercitationem voluptatem, maxime
+                        sit
+                        reprehenderit nulla iure praesentium laudantium placeat ut at qui!</span>
+                </p>
+            </div>
+            <div class="foot-items" id="contact">
+                <h4>Privacy & Policy</h4>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ad reprehenderit numquam dolores vel
+                    <span class="hide">
+                        ratione repellat labore! At deserunt fuga tempora delectus.</span>
+                </p>
+            </div>
+            <div class="foot-items" id="contri">
+                <h4>Contribution</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eos deserunt officiis iusto?
+                </p>
+            </div>
+        </div>
+        <div class="rights">
+            <p>ImageStore copyright &copy; 2021. All rights reserved.</p>
+        </div>
+    </footer> -->
+    <!-- <a href="https://www.vecteezy.com/free-vector/email">Email Vectors by Vecteezy</a> -->
+<script src="../all-js/contact.js"></script>
+</body>
+
+</html>

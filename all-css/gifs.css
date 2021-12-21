@@ -1,0 +1,62 @@
+
+.fullscreen-video{
+    /* border: 3px solid red; */
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+.para{
+ position: absolute;
+ top: 5em;
+ height: 5rem;
+ width: 88%;
+ /* border: 3px solid green; */
+ text-align: center;
+ color: white;
+ font-size: 2rem;
+ margin: 1em 4em 1em 3em;
+}
+
+.gif-outer-container{
+    /* border: 6px solid tomato; */
+    position: absolute;
+    top: 45%;
+    width: 94.2%;
+    height: 100vh;
+    margin: 3% 38px 30px 60px;
+
+}
+.gif-container{
+    /* border: 6px solid darkblue; */
+    /* position: absolute;
+    top: 10%;   */
+    /* width: 93%;
+    height: 200vh;
+    margin: 30% 50px 30px 50px; */
+
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-row-gap: 0px;
+    grid-column-gap: 3px;
+    grid-template-columns: 1fr 1fr 1fr; */
+
+    background: rgba(black, 0.66);
+    /* color: white; */
+    position: relative;
+    /* padding: 1rem; */
+}
+
+.gif-container a{
+    margin: 3px;
+}
+.gifs{
+    height: 287px;
+    width: 512px;
+}
